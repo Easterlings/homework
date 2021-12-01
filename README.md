@@ -25,22 +25,21 @@ git branch -d new
 
 删除名为new的本地分支
 
-git checkout -b cjy
+git checkout -b paul
 
-新建名为cjy的本地分支
+新建名为paul的本地分支
 
-git fetch origin cjy
+git fetch origin paul
 
-从远程(origin)获取cjy，远程(origin)上的 cjy 分支 将被获取，且本地副本被命名为origin/cjy 
+从远程(origin)获取paul，远程(origin)上的 paul 分支 将被获取，且本地副本被命名为origin/paul 
 
-git merge origin/cjy
+git merge origin/paul
 
-合并origin/cjy与本地分支 cjy
+合并origin/paul与本地分支 paul
 
-git push -u origin cjy
+git push -u origin paul
 
 推送本地分支到远程同名分支
 
 
-作出修改
 
